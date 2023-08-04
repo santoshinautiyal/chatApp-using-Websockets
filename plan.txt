@@ -1,3 +1,4 @@
 create npm project
 then i create index, css,js files
 install dependencies, express, nodemon
+create a express server(server.js)

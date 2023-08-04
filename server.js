@@ -9,5 +9,5 @@ http.listen(PORT,()=>{
 })
 
 app.get('/', (req,res)=>{
-    res.send('Hello world')
+    res.sendFile(__dirname + '/public/index.html')
 })
