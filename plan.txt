@@ -3,3 +3,8 @@ then i create index, css,js files
 install dependencies, express, nodemon
 create a express server(server.js)
 frontend part
+install socket.io 
+setup socket.io in server.js
+setup socket.io in client.js
+
+client send message logic in client.js
