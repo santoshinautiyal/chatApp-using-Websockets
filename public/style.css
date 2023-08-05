@@ -35,8 +35,8 @@ section.chat__section{
 }
 .message__area{
     height: 420px;
-    background:linear-gradient(320deg,#e9cad4 ,#a9a7a8);;
-    border: solid 1px #b36d90 ;
+    background:linear-gradient(320deg,#dcc8ce ,#d1cecf);;
+   
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -46,7 +46,8 @@ section.chat__section{
 
 textarea{
     width: 100%;
-    border: solid 1px #b36d90 ;
+   /* border: solid 1px #b36d90 ;*/
+   border: none;
     padding: 20px;
     font-size: 16px;
     outline: none;
