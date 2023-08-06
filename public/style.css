@@ -4,7 +4,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
     display: flex;
     align-items: center;
@@ -25,8 +24,6 @@ section.chat__section{
     display: flex;
     align-items: center;
 }
-
-
 .brand h1{
     text-transform: uppercase;
     font-size: 20px;
@@ -36,24 +33,20 @@ section.chat__section{
 .message__area{
     height: 420px;
     background:linear-gradient(320deg,#dcc8ce ,#d1cecf);;
-   
     padding: 16px;
     display: flex;
     flex-direction: column;
     overflow-y:auto ;
     padding-top:40px ;
 }
-
 textarea{
     width: 100%;
-   /* border: solid 1px #b36d90 ;*/
-   border: none;
+    border: none;
     padding: 20px;
     font-size: 16px;
     outline: none;
     background:linear-gradient(320deg,#f888af ,#b4b7b5);
 }
-
 .message{
     padding: 20px;
     border-radius: 4px;
@@ -61,18 +54,15 @@ textarea{
     max-width: 300px;
     position: relative;
 }
-
 .incoming{
     background: #c73a80;
     color: #fff;
 }
-
 .outgoing{
-    background: #cf9fb2;
+    background: #ca8ba4;
     color: #626060;
     margin-left: auto;
 }
-
 .message h4{
     position: absolute;
     top: -20px;
